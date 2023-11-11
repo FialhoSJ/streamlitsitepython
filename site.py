@@ -6,7 +6,7 @@ st.set_page_config(page_title="Ciência e tecnologia")
 
 with st.container():
     st.title("CIÊNCIA E TECNOLOGIA")
-    st.write("Site dedicado ao Curso de Bacharelado em Ciência e tecnologia do.")
+    st.write("Site dedicado ao Curso de Bacharelado em Ciência e tecnologia do IFPA.")
     st.write("---")
 
 with st.container():
