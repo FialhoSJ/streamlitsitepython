@@ -27,6 +27,7 @@ def main():
 if __name__ == "__main__":
     main()
 st.write("---")
+
 def main():
     st.title("Galeria")
 
