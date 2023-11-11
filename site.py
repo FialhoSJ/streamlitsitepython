@@ -36,7 +36,7 @@ def main():
 
     # Dicionário de imagens por categoria
     imagens_por_categoria = {
-        "Eventos": ["imagem 1.jpg","iamgem 3.jpg","imagem 4.jpg"],
+        "Eventos": ["imagem 1.jpg","imagem 3.jpg","imagem 4.jpg"],
         "Projetos": ["imagem 2.jpg"],
     }
 
