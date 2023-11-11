@@ -35,12 +35,20 @@ def main():
 
     # Dicionário de imagens por categoria
     imagens_por_categoria = {
-        "Eventos": "imagem 1.jpg",
-        "Projetos": "imagem 2.jpg",
+        "Eventos": ["imagem 1.jpg"],
+        "Projetos": ["imagem 2.jpg"],
     }
 
-    # Exibir a imagem correspondente à categoria selecionada
-    st.image(imagens_por_categoria.get(categoria, ""), caption=f"{categoria} Exibida", use_column_width=True)
+    # Obter a lista de imagens para a categoria selecionada
+    imagens_da_categoria = imagens_por_categoria.get(categoria, [])
+
+    # Adicionar um botão para a movimentação para a próxima imagem
+    if imagens_da_categoria:
+        index_imagem_atual = st.session_state.get('index_imagem', 0)
+        if st.button("Próxima Imagem"):
+            index_imagem_atual = (index_imagem_atual + 1) % len(imagens_da_categoria)
+        st.image(imagens_da_categoria[index_imagem_atual], caption=f"{categoria} Exibida", use_column_width=True)
+        st.session_state['index_imagem'] = index_imagem_atual
 
 if __name__ == "__main__":
      main()
