@@ -1,11 +1,12 @@
+# Importando Bibliotecas
 import streamlit as st
 from PIL import Image
-
+# Configurando a Página
 st.set_page_config(page_title="Ciência e tecnologia")
 
 with st.container():
     st.title("CIÊNCIA E TECNOLOGIA")
-    st.write("Site dedicado ao Curso de Bacharelado em Ciência e tecnologia.")
+    st.write("Site dedicado ao Curso de Bacharelado em Ciência e tecnologia do IFPA.")
     st.write("---")
 
 with st.container():
@@ -43,7 +44,7 @@ def main():
 
 if __name__ == "__main__":
      main()
-
+# Inserindo Links dos Artigos
 st.write("---")
 st.title("Artigos")
 st.write("Aqui estão alguns artigos de alunos e professores do curso, que foram publicados:")
