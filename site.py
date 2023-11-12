@@ -2,7 +2,7 @@
 import streamlit as st
 from PIL import Image
 # Configurando a Página
-st.set_page_config(page_title="Ciência e tecnologia")
+st.set_page_config(page_title="Ciência e Tecnologia")
 
 with st.container():
     st.title("CIÊNCIA E TECNOLOGIA")
@@ -10,7 +10,7 @@ with st.container():
     st.write("---")
 
 with st.container():
-    st.title("SOBRE O CURSO:")
+    st.title("SOBRE O CURSO")
     st.write("O Bacharelado em Ciências e Tecnologia, do Instituto Federal do Pará – Campus Ananindeua, tem como proposta atender a comunidade de Ananindeua e adjacências, com profissionais habilitados e capacitados para trabalhar e desenvolver, sustentavelmente, a região de integração metropolitana com uso racional das ferramentas tecnológicas e atendimento tanto de atividades industriais como do campo."
     'O curso apresenta uma natureza generalista fundamentado nos conceitos de John Henry Newman, em sua obra intitulada “The Idea of a University”, a qual propõe um modelo de ensino com foco na formação do caráter dos estudantes aliada ao desenvolvimento de competências e habilidades específicas do ramo profissional escolhido. Dessa forma, a meta da formação é a de um egresso autônomo, reflexivo, letrado e socialmente engajado tanto na área de humanidades, quanto em tecnologias e ciências.'
     'O Bacharelado em Ciências e Tecnologia propõe uma aprendizagem de abrangência significativa nos campos social, científico e tecnológico, considerando, também, a própria realidade vivenciada pelo aluno, de modo que os egressos dessa categoria de curso desenvolvam competências, habilidades e conhecimentos gerais necessários ao mundo do trabalho que requerem educação superior em uma grande área do conhecimento, mas não com formação profissional específica.'
